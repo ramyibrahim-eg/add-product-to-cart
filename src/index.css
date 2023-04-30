@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+}
+
+.button-btn {
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+}
+
+.card-nam {
+  position: absolute;
+  color: #fff;
+  width: 1.5rem;
+  height: 1.5rem;
+  bottom: 0;
+  right: 0;
+  transform: translate(25%, 25%);
+}
+
+a.nav-link.active {
+  background: #dc3545;
+  border-radius: 10px;
+  transition: all 1s;
+}
+
+.card-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.store-btn {
+  gap: 0.5rem;
+}
+
+.img-card {
+  width: 125px;
+  height: 75px;
+  object-fit: cover;
+}
+
+.text-muted {
+  font-size: 0.85rem;
+}
+
+.font-size {
+  font-size: 1.5rem !important;
+}
